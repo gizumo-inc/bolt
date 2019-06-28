@@ -1,5 +1,11 @@
 @charset "UTF-8";
 /*  common  */
+img {
+  vertical-align: center;
+}
+body{
+  font-family:"Rakeway";
+}
 .inner{
   margin:0 auto;
   width:1100px;
@@ -32,8 +38,6 @@
 }
 .header__btn{
   display:block;
-  width:100%;
-  height:100%;
   text-decoration:none;
   color:#fff;
   transition-duration:0.3s;
@@ -79,15 +83,16 @@
   }
   .main-wwcd-image{
     float:left;
-    height:295px;
-    padding:0px 100px;
+    /* padding:0px 100px; */
+    width:400px;
+    text-align:center;
   }
   .main-wwcd-content{
     box-sizing:border-box;
     color:#fff;
     float:right;
-    width:692px;
-    padding:20px 100px;
+    width:700px;
+    padding:20px 100px 0px;
     text-align:center;
   }
   .main-wwcd-content-title{
@@ -104,14 +109,17 @@
     background-color:#f2f2f2;
     color:#333;
   }
+  .main-olw-inner{
+    padding:60px 0px 70px;
+  }
   .main-olw-title{
     font-size:24px;
-    padding:60px 0px 40px 0px;
+    margin-bottom:40px;
     text-align:center;
   }
   .main-olw-content{
     box-sizing:border-box;
-    padding:90px 0px 70px;
+    margin-top:90px;
     text-align:center;
   }
   .main-olw-content-text{
@@ -147,7 +155,7 @@
   .main-olw-image:nth-child(3n+1){
     margin-left:0px;
   }
-  .main-owl-image:nth-child(-n+3){
+  .main-olw-image:nth-child(-n+3){
     margin-top:0px;
   }
 
@@ -157,13 +165,17 @@
     width:100%;
     background-color:#4e4e4e;
   }
+  .main-os-inner{
+    padding:70px 0px 100px;
+  }
   .main-os-title{
     color:#fff;
-    padding:70px;
+    padding-bottom:70px;
     text-align:center;
   }
   .main-os-image{
-    padding-bottom:100px;
+    display:flex;
+    justify-content:center;
   }
   .main-os-image-content{
     color:#fff;
@@ -177,7 +189,7 @@
   }
   .main-os-image-content figcaption{
     text-align:center;
-    padding:10px 0px;
+    margin-top:10px;
   }
 
   /*  sns  */
@@ -196,21 +208,23 @@
   .main-sns-content-image{
     text-align:center;
     color:#74cfae;
-    font-size:80px;
+    font-size:40px;
     width:185px;
     transition-duration:0.3s;
+    padding:20px 0px;
   }
   .main-sns-content-image:hover{
     background-color:#fff;
   }
-
 /*  footer  */
 
 .footer{
   background-color:#74cfae;
 }
+.footer-inner{
+  padding:20px 0 25px;
+}
 .footer-ink{
   color:#fff;
-  float:right;
-  padding:20px 0 25px;
+  text-align:right;
 }

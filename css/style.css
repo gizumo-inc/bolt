@@ -1,10 +1,13 @@
 @charset "UTF-8";
 /*  common  */
 img {
-  vertical-align: center;
+  vertical-align:bottom;
 }
 body{
-  font-family:"Rakeway";
+  font-family:"Raleway";
+}
+.is-lato{
+  font-family:"Lato";
 }
 .inner{
   margin:0 auto;
@@ -170,8 +173,9 @@ body{
   }
   .main-os-title{
     color:#fff;
-    padding-bottom:70px;
+    margin-bottom:70px;
     text-align:center;
+    font-size:24px;
   }
   .main-os-image{
     display:flex;
@@ -182,7 +186,6 @@ body{
     float:left;
     font-size:16px;
     margin-left:180px;
-    text-align:center:
   }
   .main-os-image-content:first-child{
     margin-left:0px;

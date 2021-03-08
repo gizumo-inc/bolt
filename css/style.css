@@ -95,6 +95,7 @@ body {
 
 .explanation-image {
   width: 40%;
+  line-height: 0;
 }
 
 .explanation-contents {

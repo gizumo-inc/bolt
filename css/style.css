@@ -120,11 +120,11 @@ body {
 }
 
 .works-inner {
-  padding-bottom: 70px;
+  padding: 60px 0 70px;
+
 }
 
 .works-title {
-  margin-top: 60px;
   display: inline-block;
   font-size: 24px;
 }
@@ -166,9 +166,12 @@ body {
   margin-top: 90px;
 }
 
+.works-description .button {
+  margin-left: 90px;
+}
+
 .works-description__text {
   line-height: 20px;
-  margin-right: 90px;
 }
 
 .works-description .button {
@@ -188,6 +191,10 @@ body {
 
 .skills-contents {
   margin-top: 50px;
+}
+
+.skills-title {
+  font-size: 24px;
 }
 
 .skills-contents-item {
@@ -217,7 +224,8 @@ body {
   width: 740px;
   margin: 0 auto;
 }
-.sns-contents-item {
+
+.sns-contents-item__icon {
   font-size: 50px;
   padding: 30px 0;
   width: 185px;

@@ -255,7 +255,6 @@ body {
   /* explanation */
   .explanation-inner {
     padding-bottom: 25px;
-    flex-direction: column;
   }
 
   .explanation-image {
@@ -268,16 +267,12 @@ body {
   }
 
   /* works */
-  .works-contents, .works-description {
+  .works-contents, .works-description, .explanation-inner {
     flex-direction:column;
   }
 
   .works-contents__item:nth-child(5n-1) {
     margin-top: 80px;
-  }
-
-  .works-description__text {
-    margin-right: 0; 
   }
 
   .works-contents__item {
@@ -351,9 +346,4 @@ body {
   .sns-contents-item__icon{
     width: 100%;
   }
-
-  .sns-contents-item {
-    width: 100%;
-  }
-
 }

@@ -63,9 +63,12 @@ body {
 }
 
 /* main */
+.main {
+  padding-top: 70px;
+}
+
 .theme {
   background-color: #f2f2f2;
-  padding-top: 70px;
 }
 
 .theme-inner {
@@ -122,7 +125,6 @@ body {
 
 .works-inner {
   padding: 60px 0 70px;
-
 }
 
 .works-title {
@@ -166,14 +168,11 @@ body {
 
 .works-description .button {
   margin-left: 90px;
+  padding: 14px 20px;
 }
 
 .works-description__text {
   line-height: 20px;
-}
-
-.works-description .button {
-  padding: 14px 20px;
 }
 /* skills */
 
@@ -263,7 +262,7 @@ body {
 
   .explanation-contents {
     margin: 0 auto;
-    width: 70%;
+    width: 80%;
   }
 
   /* works */
@@ -271,7 +270,13 @@ body {
     flex-direction:column;
   }
 
-  .works-contents__item:nth-child(5n-1) {
+  /* problem */
+  .works-contents li {
+    width: 300px;
+    margin: 0 auto;
+  } 
+
+  .works-contents__item:nth-child(3n+1) {
     margin-top: 80px;
   }
 
@@ -282,7 +287,16 @@ body {
 
   .works-description {
     margin-top: 80px;
+    padding: 0;
   }
+
+  .works-description__text {
+    width: 100%;
+  }
+
+  /* .works-contents__item:nth-child(3n+1) {
+    margin-left: 0;
+  } */
 
   .works-description .button {
     margin: 40px auto 0;
@@ -298,7 +312,7 @@ body {
   }
 
   .skills-contents .skills-contents-item:first-child {
-    margin: 0 auto;
+    margin: auto;
   }
 }
 
@@ -322,6 +336,10 @@ body {
     height: 4px;
     border-radius: 4px;
     margin-bottom: 4px;
+  }
+
+  .header-hamburger .header-hamburger__line:last-child {
+    margin-bottom: 0;
   }
 
   /* theme */

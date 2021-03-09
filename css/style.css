@@ -276,13 +276,17 @@ body {
     margin: 0 auto;
   } 
 
-  .works-contents__item:nth-child(3n+1) {
-    margin-top: 80px;
-  }
-
   .works-contents__item {
     margin: 0;
     line-height: 0;
+  }
+
+  .works-contents .works-contents__item:nth-child(3n+1) {
+    margin: 80px auto 0;
+  }
+
+  .works-contents .works-contents__item:first-child {
+    margin-top: 0;
   }
 
   .works-description {

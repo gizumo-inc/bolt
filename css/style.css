@@ -28,6 +28,7 @@ body {
   background-color: #74cfae;
   font-size: 12px;
   transition: all .3s;
+  text-align: center;
 }
 /* header */
 .header {
@@ -173,7 +174,6 @@ body {
 
 .works-description .button {
   padding: 14px 20px;
-  width: 20%;
 }
 /* skills */
 
@@ -196,7 +196,6 @@ body {
 
 .skills-contents-item {
   margin-left: 180px;
-  width: 25%;
 }
 
 .skills-contents .skills-contents-item:first-child {
@@ -259,6 +258,7 @@ body {
 
   .explanation-image {
     margin: 0 auto 20px;
+    width: 100%;
   }
 
   .explanation-contents {
